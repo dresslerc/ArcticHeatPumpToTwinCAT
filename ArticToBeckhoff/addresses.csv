@@ -1,0 +1,111 @@
+Item,Name,Data Address,Type,Writable,TwinCAT
+1,Unit ON/OFF,2000,Bool,1,.UNITMODE
+2,Working mode,2001,Int16,1,.WORKINGMODE
+3,Cooling setting temp.,2002,Int16,1,.COOLINGSETTINGTEMP
+4,Heating setting temp.,2003,Int16,1,.HEATINGSETTINGTEMP
+5,Hot water setting temp.,2004,Int16,1,.HOTWATERSETTINGTEMP
+6,Cooling inlet/outlet temp. difference,2005,Int16,1,.COOLINGTEMPDIFF
+7,Heating inlet/outlet temp. difference,2006,Int16,1,.HEATINGTEMPDIFF
+8,Hot water inlet/outlet temp. difference,2007,Int16,1,.HOTWATERTEMPDIFF
+9,Reserved 1,2008,Int16,1,
+10,Master valve reset initial opening,2009,Int16,1,.MASTERVALVERESET
+11,Reserved 2,2010,Int16,1,
+12,Water tank temp.,2100,Int16,0,.WATERTANKTEMP
+13,Reserved 3,2101,Int16,0,
+14,Outlet water temp.,2102,Int16,0,.OUTLETWATERTEMP
+15,Inlet water temp.,2103,Int16,0,.INLETWATERTEMP
+16,Discharge temp.,2104,Int16,0,.DISCHARGETEMP
+17,Suction temp.,2105,Int16,0,.SUCTIONTEMP
+18,EVI suction temp.,2106,Int16,0,.EVISUCTIONTEMP
+19,Outdoor coil temp.,2107,Int16,0,.OUTDOORCOILtemp
+20,Indoor coil temp.,2108,Int16,0,.INDOORCOILTEMP
+21,Indoor ambient temp.,2109,Int16,0,.INDOORAMBIENTTEMP
+22,Outdoor coil temp.,2110,Int16,0,.OUTDOORCOILTEMP2
+23,High pressure equivalent saturation temperature,2111,Int16,0,
+24,Low pressure equivalent saturation temperature,2112,Int16,0,
+25,EVI low pressure equivalent saturation temperature,2113,Int16,0,
+26,IPM temp.,2114,Int16,0,
+27,Temp. reserved 1,2115,Int16,0,
+28,Temp. reserved 2,2116,Int16,0,
+29,Temp. reserved 3,2117,Int16,0,
+30,Compressor operating frequency,2118,Int16,0,
+31,Fan motor speed,2119,Int16,0,
+32,AC voltage,2120,Int16,0,.ACVOLTAGE
+33,AC current,2121,Int16,0,.ACCURRENT
+34,DC voltage,2122,Int16,0,.DCVOLTAGE
+35,DC current,2123,Int16,0,.DCCURRENT
+36,Main electronic expansion valve opening,2124,Int16,0,
+37,Secondary electronic expansion valve opening,2125,Int16,0,
+38,High pressure,2126,Int16,0,
+39,Low pressure,2127,Int16,0,
+40,Reserved 4,2128,Int16,0,
+41,Reserved 5,2129,Int16,0,
+42,Reserved 6,2130,Int16,0,
+43,Reserved 7,2131,Int16,0,
+44,Reserved 8,2132,Int16,0,
+45,Reserved 9,2133,Int16,0,
+46,Reserved 10,2134,Int16,0,
+47,Unit ON/OFF status,2135,Bool,0,
+48,Compressor status,2135,Bool,0,
+49,High wind,2135,Bool,0,
+50,Medium wind,2135,Bool,0,
+51,Low wind,2135,Bool,0,
+52,Water pump,2135,Bool,0,
+53,Four-way valve,2135,Bool,0,
+54,Back up heater,2135,Bool,0,
+55,Water flow switch,2135,Bool,0,
+56,High pressure switch,2135,Bool,0,
+57,Low pressure switch,2135,Bool,0,
+58,Emergency switch,2135,Bool,0,
+59,AC online switch,2135,Bool,0,
+60,Mode switch,2135,Bool,0,
+61,Three-way valve 1,2135,Bool,0,
+62,Three-way valve 2,2135,Bool,0,
+63,Solenoid valve,2136,Bool,0,
+64,Unloading valve,2136,Bool,0,
+65,Oil return valve,2136,Bool,0,
+66,Reserved 11,2136,Bool,0,
+67,Reserved 12,2136,Bool,0,
+68,Defrosting operation status,2136,Bool,0,
+69,Refrigerant recovery status,2136,Bool,0,
+70,Oil return status,2136,Bool,0,
+71,Wired controller connecting status,2136,Bool,0,
+72,Energy-saving running status,2136,Bool,0,
+73,1st class antifreeze status,2136,Bool,0,
+74,2nd class antifreeze status,2136,Bool,0,
+75,High temperature sterilization status,2136,Bool,0,
+76,Reserved 13,2136,Bool,0,
+77,Reserved 14,2136,Bool,0,
+78,Reserved 15,2136,Bool,0,
+79,Indoor EE error,2137,Bool,0,
+80,Outdoor EE error,2137,Bool,0,
+81,Inlet water temp. sensor error,2137,Bool,0,
+82,Outlet water temp. sensor error,2137,Bool,0,
+83,Indoor coil temp. sensor error,2137,Bool,0,
+84,Outdoor coil temp. sensor error,2137,Bool,0,
+85,Discharge temp. sensor error,2137,Bool,0,
+86,Suction temp. sensor error,2137,Bool,0,
+87,Outdoor temp. sensor error,2137,Bool,0,
+88,Indoor and outdoor unit connecting error,2137,Bool,0,
+89,Wired controller and board communication error,2137,Bool,0,
+90,Compressor start error,2137,Bool,0,
+91,Compressor drive error,2137,Bool,0,
+92,IPM error,2137,Bool,0,
+93,Compressor housing top protection,2137,Bool,0,
+94,AC voltage protection,2137,Bool,0,
+95,AC current protection,2138,Bool,0,
+96,Compressor current protection,2138,Bool,0,
+97,Fan motor error,2138,Bool,0,
+98,Bus voltage protection,2138,Bool,0,
+99,IPM high temp. protection,2138,Bool,0,
+100,High discharge temp. protection,2138,Bool,0,
+101,High pressure protection,2138,Bool,0,
+102,Low pressure protection,2138,Bool,0,
+103,Water flow protection,2138,Bool,0,
+104,Cooling high outdoor coil temp. protection,2138,Bool,0,
+105,Low ambient temp. protection,2138,Bool,0,
+106,EEV low pressure protection,2138,Bool,0,
+107,EVI low pressure protection,2138,Bool,0,
+108,Inlet and outlet water large temp. difference protection,2138,Bool,0,
+109,Low outlet water temp. protection,2138,Bool,0,
+110,Compressor running pressure difference protection,2138,Bool,0,
