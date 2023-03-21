@@ -48,13 +48,15 @@ namespace ArticToBeckhoff
             Logger("Loading addresses.csv");
             List<address> modbusitems = loadAddresses();
 
-            Logger("Connecting to Modbus");
+            Logger("Connecting to Modbus " + Properties.Settings.Default.IP + " " + Properties.Settings.Default.Port);
             EasyModbus.ModbusClient modbusClient = new EasyModbus.ModbusClient();
-            modbusClient.Baudrate = 2400;
-            modbusClient.SerialPort = Properties.Settings.Default.Port;
+            //modbusClient.Baudrate = 2400;
+            //modbusClient.SerialPort = Properties.Settings.Default.Port;
 
-            modbusClient.Connect();
+            modbusClient.Connect(Properties.Settings.Default.IP,Properties.Settings.Default.Port);
 
+        
+            
             Logger("Connecting to ADS");
 
             ads = new TcAdsClient();

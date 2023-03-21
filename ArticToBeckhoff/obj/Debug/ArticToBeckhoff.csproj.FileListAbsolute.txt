@@ -12,3 +12,15 @@ C:\Users\carst\source\repos\ArticToBeckhoff\ArticToBeckhoff\obj\Debug\ArticToBec
 C:\Users\carst\source\repos\ArticToBeckhoff\ArticToBeckhoff\bin\Debug\TwinCAT.Ads.dll
 C:\Users\carst\source\repos\ArticToBeckhoff\ArticToBeckhoff\bin\Debug\TwinCAT.Ads.xml
 C:\Users\carst\source\repos\ArticToBeckhoff\ArticToBeckhoff\bin\Debug\addresses.csv
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\bin\Debug\addresses.csv
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\bin\Debug\ArticToBeckhoff.exe.config
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\bin\Debug\ArticToBeckhoff.exe
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\bin\Debug\ArticToBeckhoff.pdb
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\bin\Debug\EasyModbus.dll
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\bin\Debug\EasyModbus.xml
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\obj\Debug\ArticToBeckhoff.csproj.AssemblyReference.cache
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\obj\Debug\ArticToBeckhoff.csproj.SuggestedBindingRedirects.cache
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\obj\Debug\ArticToBeckhoff.csproj.CoreCompileInputs.cache
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\obj\Debug\ArticToBeckhoff.csproj.CopyComplete
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\obj\Debug\ArticToBeckhoff.exe
+C:\Users\carst\OneDrive\Documents\GitHub\ArcticHeatPumpToTwinCAT\ArticToBeckhoff\obj\Debug\ArticToBeckhoff.pdb

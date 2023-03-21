@@ -25,7 +25,7 @@ namespace ArticToBeckhoff.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1")]
         public string IP {
             get {
                 return ((string)(this["IP"]));
@@ -37,10 +37,10 @@ namespace ArticToBeckhoff.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("COM3")]
-        public string Port {
+        [global::System.Configuration.DefaultSettingValueAttribute("502")]
+        public int Port {
             get {
-                return ((string)(this["Port"]));
+                return ((int)(this["Port"]));
             }
             set {
                 this["Port"] = value;
